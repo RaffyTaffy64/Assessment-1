@@ -2,41 +2,53 @@
 // Ex.:
 //   greaterThanTen([1, 2, 3, 11, 12, 13]);
 //   => [11, 12, 13]
-
 function greaterThanTen(numbers) {
 
-    let greaterThanTen = (numbers > 10)
-    let newArr = []
-
-    return newArr
+  return numbers
 }
 
-  console.log(greaterThanTen)
+console.log (greaterThanTen)
 
- Given an array of strings, return all words that start with 'b' or 'B'.
+// Given an array of strings, return all words that start with 'b' or 'B'.
 // Ex.:
 //   bWords(['banana', 'orange', 'apple', 'Bonobo', 'kiwi', 'pear']);
 //   => ['banana', 'Bonobo]
-function bWords(words) {}
+function bWords(words) {
+
+  return words
+}
+
+console.log (bwords)
 
 // Add all the elements from additionalItems to the end of originalArray.
 // Return the originalArray..
 // Ex.:
 //  extend([1, 2, 3], [4, 5, 6]);
 //  => [1, 2, 3, 4, 5, 6]
-function extend(originalArray, additionalItems) {}
+function extend(originalArray, additionalItems) {
 
+  return additionalItems + originalArray
+}
+
+console.log (extended)
 // Return an array of all items with the given length.
 // Ex.:
 //   itemsWithLength(['a', 'bbb', 'cccc', 'dddddd', 'eee'], 3);
 //   => ['bbb', 'eee']
-function itemsWithLength(items, length) {}
+function itemsWithLength(items, length) {
+
+  something about itemsWithLength.length
+
+}
 
 // Return an array with every other element from the input array (start with index 0).
 // Ex.:
 //   everyOtherItem(['a', 'b', 'c', 'd', 'e']);
 //   => ['a', 'c', 'e']
-function everyOtherItem(items) {}
+function everyOtherItem(items) {
+
+  return (items += 2)
+}
 
 // Given a list of words and a letter, return the indexes of the words that
 // start with that letter. You can assume that the words and letter will always
@@ -44,7 +56,12 @@ function everyOtherItem(items) {}
 // Ex.:
 //   findWordsStartingWith(['apple', 'banana', 'kiwi', 'pear', 'bacon'], 'b');
 //   => [1, 4]
-function findWordsStartingWith(words, letter) {}
+function findWordsStartingWith(words, letter) {
+
+  return words [0]
+}
+
+console.log 
 
 // Return the `n` smallest values in the array in descending order (largest
 // numbers first). Assume that `n` will always be less than the length of the
@@ -54,6 +71,8 @@ function findWordsStartingWith(words, letter) {}
 //   => [21, 4, 1]
 function smallestNItems(items, n) {}
 
+console.log 
+
 // Search for a value in the array and return its index. If the value appears
 // more than once, return the index of the *FIRST* occurrence of the value. If
 // the value doesn't exist in the array, return undefined.
@@ -61,6 +80,7 @@ function smallestNItems(items, n) {}
 //   findIndex(['a', 'b', 'c', 'a', 'b', 'c'], 'c');
 //   => 2
 function findIndex(items, value) {}
+console. lot
 
 // Given a start number and stop number, return a new array containing all the numbers
 // between the start and stop number.
@@ -80,3 +100,5 @@ export {
   range,
   smallestNItems,
 };
+
+function export(i=0; start.lenght; ++)
