@@ -4,11 +4,15 @@
 //   => [11, 12, 13]
 
 function greaterThanTen(numbers) {
-  return numbers.length > 10
 
+    let greaterThanTen = (numbers > 10)
+    let newArr = []
+
+    return newArr
 }
+
   console.log(greaterThanTen)
-  
+
  Given an array of strings, return all words that start with 'b' or 'B'.
 // Ex.:
 //   bWords(['banana', 'orange', 'apple', 'Bonobo', 'kiwi', 'pear']);
