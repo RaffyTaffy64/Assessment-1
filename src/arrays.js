@@ -2,15 +2,14 @@
 // Ex.:
 //   greaterThanTen([1, 2, 3, 11, 12, 13]);
 //   => [11, 12, 13]
+
 function greaterThanTen(numbers) {
+  return numbers.length > 10
 
-  return numbers > 10
-
-  }
-
+}
   console.log(greaterThanTen)
-
-// Given an array of strings, return all words that start with 'b' or 'B'.
+  
+ Given an array of strings, return all words that start with 'b' or 'B'.
 // Ex.:
 //   bWords(['banana', 'orange', 'apple', 'Bonobo', 'kiwi', 'pear']);
 //   => ['banana', 'Bonobo]
