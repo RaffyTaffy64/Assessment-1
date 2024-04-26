@@ -13,8 +13,8 @@
 
 Which statement is true about JavaScript?
 
-- [ ] **A.** JavaScript is case insensitive, so `true` is the same as `True`.
-- [x] **B.** JavaScript ignores whitespace characters like spaces and newline characters.
+- [x] **A.** JavaScript is case insensitive, so `true` is the same as `True`.
+- [ ] **B.** JavaScript ignores whitespace characters like spaces and newline characters.
 - [ ] **C.** JavaScript requires you to end all statements with a semicolon (`;`).
 - [ ] **D.** All of the above are true.
 - [ ] **E.** None of the above are true.
@@ -45,8 +45,8 @@ const result = 1 < 100 || 'hello' === 'hi';
 console.log(result);
 ```
 
-- [x] **A.** `true`
-- [ ] **B.** `false`
+- [ ] **A.** `true`
+- [x] **B.** `false`
 - [ ] **C.** `undefined`
 - [ ] **D.** N/A because the code has an error
 
@@ -134,7 +134,7 @@ console.log(fruits[fruits.indexOf('apple')]);
 // apple
 ```
 
-- [ ] **A.** The code causes an error because `fruits[fruits.indexOf('apple')]` isn't valid
+- [x] **A.** The code causes an error because `fruits[fruits.indexOf('apple')]` isn't valid
   JavaScript syntax.
 - [ ] **B.** The code causes an error because `fruits.indexOf('apple')` doesn't return a valid
   index number.
@@ -157,7 +157,7 @@ for (const w of words) {
 ```
 
 - [ ] **A.** The code causes an error because `w` needs to be a `let` variable.
-- [ ] **B.** The code causes an error because `words` is an array and `toUpperCase()` isn't a
+- [x] **B.** The code causes an error because `words` is an array and `toUpperCase()` isn't a
   valid array function.
 - [ ] **C.** The code causes an error because it will output `['JS', 'HTML', 'CSS']` three times.
 - [ ] **D.** There is no error; the code generates the expected output.
@@ -177,7 +177,7 @@ console.log(numStrings);
 // ['500', '200', '440']
 ```
 
-- [ ] **A.** The code causes an error because `numStrings` needs to be a `let` variable.
+- [x] **A.** The code causes an error because `numStrings` needs to be a `let` variable.
 - [ ] **B.** The code causes an error because `i <= nums.length` should be `i < nums.length`
 - [ ] **C.** The code causes an error because `i++` isn't valid JavaScript syntax.
 - [ ] **D.** There is no error; the code generates the expected output.
@@ -206,7 +206,7 @@ outputArgs('hi', 'bye');
 
 - [ ] **A.** The code causes an error because `outputArgs` takes in three arguments but it's being
   called with just two.
-- [ ] **B.** The code causes an error because it will output `hi`, `bye`, and `undefined` instead
+- [x] **B.** The code causes an error because it will output `hi`, `bye`, and `undefined` instead
   of the expected output.
 - [ ] **C.** The code causes an error because the `a`, `b`, and `c` variables haven't been
   initialized.
@@ -225,13 +225,21 @@ Functions can be used to create named blocks of code that can be executed/reused
 **_What is the difference between `console.log` and `return`?_**
 
 ```
-REPLACE THIS WITH YOUR ANSWER
+console.log runs the etire code and returns the output
+
+return runs just the function being invoked and returns output for that specified function
 ```
 
 **_What's the difference between defining and calling a function?_**
 
 ```
-REPLACE THIS WITH YOUR ANSWER
+defining = setting up what you want it to do (name = Brad)
+
+calling a function = invokes what you defined (console.log(name)
+
+//Brad
+
+)
 ```
 
 ### B.2. Describe these data types.
@@ -241,25 +249,25 @@ Write a short description of the following data types:
 **_String_**
 
 ```
-REPLACE THIS WITH YOUR ANSWER
+a list of indexes
 ```
 
 **_Number_**
 
 ```
-REPLACE THIS WITH YOUR ANSWER
+any whole number, positive or negative
 ```
 
 **_Boolean_**
 
 ```
-REPLACE THIS WITH YOUR ANSWER
+a truey or falsey
 ```
 
 **_Array_**
 
 ```
-REPLACE THIS WITH YOUR ANSWER
+a parameter that has a nameOfFunction(and a list of parameters)
 ```
 
 ### B.3. Trace the value of `x`
@@ -274,6 +282,7 @@ while (y < 3) {
   y = y + 1;
   console.log(x);
 }
+//x = 15
 ```
 
 The lines below represent the value of `y` and `x` at the end of each iteration of the `while` loop.
@@ -282,7 +291,7 @@ completed for you.
 
 ```
 Initial values: y = 0, x = 5
-1:              y = 1, x = ??
-2:              y = 2, x = ??
-3:              y = 3, x = ??
+1:              y = 1, x = 10
+2:              y = 2, x = 15
+3:              y = 3, x = 15
 ```
